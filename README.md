@@ -1,5 +1,7 @@
 # HELLO WORLD!
 
-- This is stupid school project
+- Репозиторий для дз по информатике
 
-- If you read it, please leave this place
+- Сайт: https://sigmaskibidi.ru
+
+- Дата: 26.04.2025 - 29.04.2025
