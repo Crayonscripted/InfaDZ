@@ -14,6 +14,17 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       margin-bottom: 1em;
     }
+
+    .preview-img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 10rem;
+    }
+
+    .preview-btn {
+      border-radius: 10em;
+      margin-bottom: 3em;
+    }
   </style>
   <link rel="icon" href="images/CM.png" type="image/png">
 </head>
@@ -41,15 +52,23 @@
             <a class="nav-link" href="about.html">О сайте</a>
           </li>
         </ul>
-        <button class="btn btn-success me-2" type="button">Авторизоваться</button>
+        <button class="btn btn-success me-2" type="button" disabled>Авторизоваться</button>
       </div>
     </div>
   </nav>
 
-  <div class="container text-center">
-    <h1>Выберите категорию товаров:</h1>
-    <p><a href="shop.html">Персональные компьютеры</a></p>
-    <p><a href="shop2.html">Комплектующие</a></p>
+  <div class="container text-center my-4">
+    <h1 class="fw-light" style="margin-bottom: 1em;">Выберите категорию товаров</h1>
+
+    <a href="shop.html" class="btn btn-dark preview-btn">
+      <img src="images/terka2.jpg" alt="PC" class="preview-img">
+      <span class="fw-light fs-3">Персональные компьютеры</span>
+    </a><br>
+
+    <a href="shop2.html" class="btn btn-dark preview-btn">
+      <img src="images/video1.png" alt="PC" class="preview-img">
+      <span class="fw-light fs-3">Комплектующие</span>
+    </a>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
